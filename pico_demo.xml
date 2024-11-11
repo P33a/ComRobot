@@ -9,7 +9,7 @@
     <col num="11" width="55"/>
   </columns>
   <cells>
-    <cell r="3" c="2" text="100" read_channel="led"/>
+    <cell r="3" c="2" text="0" read_channel="led"/>
     <cell r="2" c="2" text="Read"/>
     <cell r="2" c="3" text="Write"/>
     <cell r="3" c="1" text="LED PWM"/>
@@ -19,8 +19,8 @@
     <cell r="3" c="4" text="[Set LED]"/>
     <cell r="3" c="5" text="[Zero LED]"/>
     <cell r="7" c="1" text="Temperature"/>
-    <cell r="7" c="2" text="0" read_channel="temp"/>
-    <cell r="4" c="2" text="100000" read_channel="dte"/>
-    <cell r="4" c="4" text="[Set dt (s)]"/>
+    <cell r="7" c="2" text="27.1384" read_channel="temp" charted="1" series_color="clRed"/>
+    <cell r="4" c="2" text="40000" read_channel="dte"/>
+    <cell r="4" c="4" text="[Set dt]"/>
   </cells>
 </sheet>

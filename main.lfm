@@ -36,11 +36,11 @@ object FMain: TFMain
         Height = 636
         Top = 0
         Width = 804
-        ActivePage = TabJoystick
+        ActivePage = TabGrid
         Anchors = [akTop, akLeft, akRight, akBottom]
         Font.Height = -11
         ParentFont = False
-        TabIndex = 4
+        TabIndex = 0
         TabOrder = 0
         object TabGrid: TTabSheet
           Caption = 'Grid'

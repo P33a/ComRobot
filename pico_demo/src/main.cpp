@@ -118,6 +118,7 @@ void loop()
 
 
     // Read and process sensors
+    temperature = analogReadTemp(); // Get internal temperature
      
     // Control things here
 
