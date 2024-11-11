@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <CompatibilityMode Value="True"/>
+      </Flags>
+      <Title Value="ComRobot"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <MinorVersionNr Value="4"/>
+      <RevisionNr Value="2"/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="8">
+      <Item1>
+        <PackageName Value="Printer4Lazarus"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="pascalscript"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SdpoJoystickLaz"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="SynEdit"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="sdpofpseriallaz"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="lnetvisual"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="LCL"/>
+      </Item8>
+    </RequiredPackages>
+    <Units Count="21">
+      <Unit0>
+        <Filename Value="ComRobot.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="15"/>
+        <CursorPos X="19" Y="21"/>
+        <UsageCount Value="409"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="851"/>
+        <CursorPos X="65" Y="872"/>
+        <UsageCount Value="409"/>
+        <Bookmarks Count="5">
+          <Item0 X="89" Y="390" ID="9"/>
+          <Item1 X="13" Y="794" ID="4"/>
+          <Item2 X="22" Y="897" ID="3"/>
+          <Item3 X="48" Y="1562" ID="2"/>
+          <Item4 X="32" Y="1627" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="gchannels.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="14"/>
+        <CursorPos X="33" Y="20"/>
+        <UsageCount Value="204"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="verInfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VerInfo"/>
+        <EditorIndex Value="13"/>
+        <CursorPos X="13" Y="13"/>
+        <UsageCount Value="204"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="gridsheet.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="72"/>
+        <CursorPos X="15" Y="90"/>
+        <UsageCount Value="263"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="enum_serial.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="111"/>
+        <CursorPos X="23" Y="135"/>
+        <UsageCount Value="219"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="dynmatrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="403"/>
+        <CursorPos X="29" Y="421"/>
+        <UsageCount Value="291"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Editor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FEditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="editor"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="23" Y="29"/>
+        <UsageCount Value="291"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uPSI_dynmatrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="20" Y="3"/>
+        <UsageCount Value="291"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="uPSI_user_charts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="28"/>
+        <CursorPos X="12" Y="46"/>
+        <UsageCount Value="241"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="user_charts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="8"/>
+        <CursorPos X="17"/>
+        <UsageCount Value="241"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lnet\lazaruspackage\lnetcomponents.pas"/>
+        <UnitName Value="lNetComponents"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="3" Y="58"/>
+        <UsageCount Value="218"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lnet\lazaruspackage\lclnet.pas"/>
+        <UnitName Value="LCLNet"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="218"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lnet\lazaruspackage\lclwineventer.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="218"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\fpcupdeluxe\fpcsrc\packages\rtl-extra\src\win\winsock2.pp"/>
+        <UnitName Value="WinSock2"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="524"/>
+        <CursorPos X="38" Y="538"/>
+        <UsageCount Value="218"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\components\tachart\tacustomsource.pas"/>
+        <UnitName Value="TACustomSource"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1822"/>
+        <CursorPos X="21" Y="1841"/>
+        <UsageCount Value="151"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\components\tachart\tacustomseries.pas"/>
+        <UnitName Value="TACustomSeries"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="1047"/>
+        <CursorPos Y="1066"/>
+        <UsageCount Value="151"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="123"/>
+        <CursorPos X="16" Y="142"/>
+        <UsageCount Value="143"/>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\components\sdpo\SdpofpSerial\sdpofpserial.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="208"/>
+        <CursorPos X="55" Y="234"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\components\lazutils\lazstringutils.pas"/>
+        <UnitName Value="LazStringUtils"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1297"/>
+        <CursorPos X="8" Y="1315"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="857"/>
+        <CursorPos X="20" Y="865"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="main.pas"/>
+        <Caret Line="1716" Column="3" TopLine="1714"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="1724" Column="3" TopLine="1722"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main.pas"/>
+        <Caret Line="1605" TopLine="1602"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="1618" Column="35" TopLine="1587"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="1406" Column="3" TopLine="1404"/>
+      </Position5>
+      <Position6>
+        <Filename Value="main.pas"/>
+        <Caret Line="334" Column="15" TopLine="316"/>
+      </Position6>
+      <Position7>
+        <Filename Value="main.pas"/>
+        <Caret Line="1427" Column="37" TopLine="1416"/>
+      </Position7>
+      <Position8>
+        <Filename Value="main.pas"/>
+        <Caret Line="1428" Column="11" TopLine="1408"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main.pas"/>
+        <Caret Line="1587" Column="12" TopLine="1587"/>
+      </Position9>
+      <Position10>
+        <Filename Value="main.pas"/>
+      </Position10>
+      <Position11>
+        <Filename Value="main.pas"/>
+        <Caret Line="1411" Column="3" TopLine="1409"/>
+      </Position11>
+      <Position12>
+        <Filename Value="main.pas"/>
+        <Caret Line="1401" Column="3" TopLine="1399"/>
+      </Position12>
+      <Position13>
+        <Filename Value="main.pas"/>
+        <Caret Line="327" Column="15" TopLine="309"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main.pas"/>
+        <Caret Line="1371" Column="3" TopLine="1367"/>
+      </Position14>
+      <Position15>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="88" Column="15" TopLine="69"/>
+      </Position15>
+      <Position16>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="408" Column="3" TopLine="399"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="1371" Column="3" TopLine="1367"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="1378" Column="3" TopLine="1374"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="1302" Column="16" TopLine="1287"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="1313" Column="110" TopLine="1287"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="1408" Column="3" TopLine="1405"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="329" Column="15" TopLine="311"/>
+      </Position22>
+      <Position23>
+        <Filename Value="main.pas"/>
+        <Caret Line="1395" Column="25" TopLine="1374"/>
+      </Position23>
+      <Position24>
+        <Filename Value="main.pas"/>
+        <Caret Line="1176" Column="54" TopLine="1174"/>
+      </Position24>
+      <Position25>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\components\sdpo\SdpofpSerial\sdpofpserial.pas"/>
+        <Caret Line="234" Column="55" TopLine="208"/>
+      </Position25>
+      <Position26>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\components\lazutils\lazstringutils.pas"/>
+        <Caret Line="1315" Column="8" TopLine="1297"/>
+      </Position26>
+      <Position27>
+        <Filename Value="main.pas"/>
+        <Caret Line="1184" Column="44" TopLine="1169"/>
+      </Position27>
+      <Position28>
+        <Filename Value="main.pas"/>
+        <Caret Line="874" Column="30" TopLine="850"/>
+      </Position28>
+      <Position29>
+        <Filename Value="main.pas"/>
+        <Caret Line="1356" Column="3" TopLine="1354"/>
+      </Position29>
+      <Position30>
+        <Filename Value="main.pas"/>
+        <Caret Line="1579" Column="3" TopLine="1577"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="ComRobot"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Optimizations>
+        <OptimizationLevel Value="4"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <IgnoredMessages idx6058="True"/>
+      </CompilerMessages>
+      <ExecuteBefore>
+        <ShowAllMessages Value="True"/>
+      </ExecuteBefore>
+      <ExecuteAfter>
+        <ShowAllMessages Value="True"/>
+      </ExecuteAfter>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
