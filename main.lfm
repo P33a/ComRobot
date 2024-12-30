@@ -101,7 +101,7 @@ object FMain: TFMain
             Left = 28
             Height = 22
             Top = 4
-            Width = 597
+            Width = 589
             AutoSize = False
             AutoSelect = False
             Font.Height = -11
@@ -460,6 +460,16 @@ object FMain: TFMain
             ParentFont = False
             TabOrder = 17
             OnClick = BClearSheetClick
+          end
+          object CBCellIsProtected: TCheckBox
+            Left = 628
+            Height = 17
+            Top = 6
+            Width = 67
+            Caption = 'Protected'
+            Font.Height = -11
+            ParentFont = False
+            TabOrder = 18
           end
         end
         object TabConfig: TTabSheet

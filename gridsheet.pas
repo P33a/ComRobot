@@ -26,6 +26,7 @@ type
     NumberFormat: string;
     CellType: TCellType;
     CellButtonState: TCellButtonState;
+    isProtected: boolean;
 
     ReadChannel, WriteChannel: string;
     ReadChanneldMode: TReadChanneldMode;
@@ -215,6 +216,7 @@ begin
   //SourceCellsList := TStringList.Create;
   backColor := clWindow;
   //font := TFont.Create;
+  //isProtected := false;
 end;
 
 destructor TSheetCell.Destroy;
@@ -353,6 +355,9 @@ begin
       if CellList[i].SeriesColor <> clBlack then
         TDOMElement(prop).SetAttribute('series_color', format('%s',[ColorToString(CellList[i].SeriesColor)]));
 
+      if CellList[i].isProtected then
+        TDOMElement(prop).SetAttribute('protected', format('%d',[ord(CellList[i].isProtected)]));
+
       if CellList[i].backcolor <> clWindow then
         TDOMElement(prop).SetAttribute('backcolor', format('$%.6x',[integer(CellList[i].backcolor)]));
       //if CellList[i].Font.Name <> DefaultSheetCell.Font.Name then
@@ -480,6 +485,8 @@ begin
 
             SheetCell.Charted := GetNodeAttrInt(prop, 'charted', ord(DefaultSheetCell.Charted)) <> 0;
             SheetCell.SeriesColor := StringToColorDef(GetNodeAttrStr(prop, 'series_color', ColorToString(DefaultSheetCell.SeriesColor)), clBlack);
+
+            SheetCell.isProtected := GetNodeAttrInt(prop, 'protected', ord(DefaultSheetCell.isProtected)) <> 0;
 
             //SheetCell.Font.Name := GetNodeAttrStr(prop, 'font', DefaultSheetCell.Font.Name);
             //SheetCell.Font.Size := GetNodeAttrInt(prop, 'font_size', DefaultSheetCell.Font.Size);

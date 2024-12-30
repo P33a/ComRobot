@@ -98,6 +98,7 @@ type
     BSaveSheet: TButton;
     BJoystickStart: TButton;
     Button_ClearChart: TButton;
+    CBCellIsProtected: TCheckBox;
     CBDeadManSwitch: TCheckBox;
     CBDTR: TCheckBox;
     CBRawSend: TCheckBox;
@@ -1507,6 +1508,12 @@ procedure TFMain.WriteCellData(r, c: integer);
 var cell: TSheetCell;
 begin
   cell := sheet.EditCell(r, c);
+  cell.isProtected := CBCellIsProtected.Checked;
+  if cell.isProtected then begin
+    ReadCellData(r, c);
+    StatusBar.SimpleText := 'Cell is protected!';
+    exit;
+  end;
   cell.ParseText(EditFormula.Text);
 
   cell.ReadChannel := EditReadChannel.Text;
@@ -1556,6 +1563,8 @@ begin
 
   CBCellCharted.Checked := cell.Charted;
   ColorBoxSeries.Selected := cell.SeriesColor;
+
+  CBCellIsProtected.Checked := cell.isProtected;
 end;
 
 {
@@ -1637,6 +1646,7 @@ end;
 
 procedure TFMain.EditFormulaChange(Sender: TObject);
 begin
+  if CBCellIsProtected.Checked then exit; // Avoid editing protected cells
   SGSheet.Cells[last_c, last_r] := EditFormula.Text;
 end;
 
