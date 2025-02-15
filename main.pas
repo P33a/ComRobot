@@ -785,7 +785,9 @@ begin
             CurCell.value := 0;
             CurCell.text := ChannelItem.Data.text;
           end;
-          sheet.SGrid.Cells[CurCell.col, CurCell.row] := CurCell.text;
+          if sheet.SGrid.Cells[CurCell.col, CurCell.row] <> CurCell.text then begin
+            sheet.SGrid.Cells[CurCell.col, CurCell.row] := CurCell.text;
+          end;
 
           // Add to chart if it is active
           //if not CBChartFreeze.Checked and (CurCell.Charted) and Assigned(CurCell.Series) then begin
@@ -1020,7 +1022,11 @@ begin
       DrawFrameControl(Grid.Canvas.Handle, aRect, DFC_BUTTON, DFCS_BUTTONPUSH);
       DrawButtonText(Grid.Canvas, aRect, sText, Font, myBackColor, myTextColor, false);
     end;
-  end else if SheetCell.Charted and (SheetCell.ReadChannel <> '') then begin
+  //end else begin
+  //  DrawButtonText(Grid.Canvas, aRect, sText, Font, clBackground, myTextColor, true);
+  end;
+
+  if SheetCell.Charted and (SheetCell.ReadChannel <> '') then begin
     DrawChartDot(Grid.Canvas, aRect, SheetCell.SeriesColor);
   end;
 end;
