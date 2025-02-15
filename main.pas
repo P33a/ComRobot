@@ -1829,7 +1829,7 @@ begin
   FormatSettings.TimeSeparator := '_';
   i := CBDecimalSeparator.ItemIndex;
   if i = 0 then FormatSettings.DecimalSeparator := '.';
-  if 1 = 1 then FormatSettings.DecimalSeparator := ',';
+  if i = 1 then FormatSettings.DecimalSeparator := ',';
 
   result := 'Could not save log file: ' + FileName;
   if Chart.Series.Count = 0 then exit;
@@ -1838,9 +1838,9 @@ begin
     NumPoints := (Chart.Series[0] as TLineSeries).Count;
 
     for i := 0 to NumPoints - 1 do begin
-      s := format('%g', [i * dt]);
+      s := format('%g', [i * dt], FormatSettings);
       for c := 0 to Chart.Series.Count - 1 do begin
-        s := s + format(' %g', [(Chart.Series[c] as TLineSeries).YValue[i]]);
+        s := s + format(' %g', [(Chart.Series[c] as TLineSeries).YValue[i]], FormatSettings);
       end;
       SL.Add(s);
     end;
