@@ -21,7 +21,7 @@
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="1"/>
       <MinorVersionNr Value="4"/>
-      <RevisionNr Value="4"/>
+      <RevisionNr Value="6"/>
     </VersionInfo>
     <BuildModes Count="1" Active="Default">
       <Item1 Name="Default" Default="True"/>
@@ -61,11 +61,11 @@
         <PackageName Value="LCL"/>
       </Item8>
     </RequiredPackages>
-    <Units Count="22">
+    <Units Count="24">
       <Unit0>
         <Filename Value="ComRobot.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="14"/>
+        <EditorIndex Value="16"/>
         <CursorPos Y="16"/>
         <UsageCount Value="409"/>
         <Loaded Value="True"/>
@@ -77,15 +77,15 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="1064"/>
-        <CursorPos Y="1064"/>
+        <TopLine Value="1827"/>
+        <CursorPos X="49" Y="1847"/>
         <UsageCount Value="409"/>
         <Bookmarks Count="5">
-          <Item0 X="89" Y="391" ID="9"/>
-          <Item1 X="13" Y="795" ID="4"/>
-          <Item2 X="22" Y="898" ID="3"/>
-          <Item3 X="48" Y="1571" ID="2"/>
-          <Item4 X="3" Y="1510" ID="1"/>
+          <Item0 X="89" Y="393" ID="9"/>
+          <Item1 X="13" Y="799" ID="4"/>
+          <Item2 X="22" Y="902" ID="3"/>
+          <Item3 X="48" Y="1579" ID="2"/>
+          <Item4 X="3" Y="1518" ID="1"/>
         </Bookmarks>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -93,7 +93,7 @@
       <Unit2>
         <Filename Value="gchannels.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="13"/>
+        <EditorIndex Value="15"/>
         <CursorPos X="33" Y="20"/>
         <UsageCount Value="204"/>
         <Loaded Value="True"/>
@@ -102,7 +102,7 @@
         <Filename Value="verInfo.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="VerInfo"/>
-        <EditorIndex Value="12"/>
+        <EditorIndex Value="14"/>
         <CursorPos X="13" Y="13"/>
         <UsageCount Value="204"/>
         <Loaded Value="True"/>
@@ -110,16 +110,16 @@
       <Unit4>
         <Filename Value="gridsheet.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="9"/>
-        <TopLine Value="211"/>
-        <CursorPos X="5" Y="227"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="81"/>
+        <CursorPos X="11" Y="99"/>
         <UsageCount Value="263"/>
         <Loaded Value="True"/>
       </Unit4>
       <Unit5>
         <Filename Value="enum_serial.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="9"/>
         <TopLine Value="111"/>
         <CursorPos X="23" Y="135"/>
         <UsageCount Value="219"/>
@@ -128,7 +128,7 @@
       <Unit6>
         <Filename Value="dynmatrix.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="403"/>
         <CursorPos X="29" Y="421"/>
         <UsageCount Value="291"/>
@@ -141,7 +141,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="editor"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="5"/>
         <TopLine Value="366"/>
         <CursorPos X="32" Y="383"/>
         <UsageCount Value="291"/>
@@ -151,7 +151,7 @@
       <Unit8>
         <Filename Value="uPSI_dynmatrix.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="8"/>
         <CursorPos X="20" Y="3"/>
         <UsageCount Value="291"/>
         <Loaded Value="True"/>
@@ -159,7 +159,7 @@
       <Unit9>
         <Filename Value="uPSI_user_charts.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="28"/>
         <CursorPos X="12" Y="46"/>
         <UsageCount Value="241"/>
@@ -168,7 +168,7 @@
       <Unit10>
         <Filename Value="user_charts.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="7"/>
         <CursorPos X="17"/>
         <UsageCount Value="241"/>
         <Loaded Value="True"/>
@@ -219,7 +219,7 @@
       <Unit17>
         <Filename Value="C:\fpcupdeluxe2\lazarus\lcl\grids.pas"/>
         <UnitName Value="Grids"/>
-        <EditorIndex Value="11"/>
+        <EditorIndex Value="13"/>
         <TopLine Value="123"/>
         <CursorPos X="16" Y="142"/>
         <UsageCount Value="143"/>
@@ -227,19 +227,19 @@
       </Unit17>
       <Unit18>
         <Filename Value="C:\fpcupdeluxe2\lazarus\components\sdpo\SdpofpSerial\sdpofpserial.pas"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="208"/>
         <CursorPos X="28" Y="234"/>
-        <UsageCount Value="44"/>
+        <UsageCount Value="46"/>
         <Loaded Value="True"/>
       </Unit18>
       <Unit19>
         <Filename Value="C:\fpcupdeluxe2\lazarus\components\lazutils\lazstringutils.pas"/>
         <UnitName Value="LazStringUtils"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="1297"/>
         <CursorPos X="8" Y="1315"/>
-        <UsageCount Value="43"/>
+        <UsageCount Value="45"/>
         <Loaded Value="True"/>
       </Unit19>
       <Unit20>
@@ -251,133 +251,149 @@
       </Unit20>
       <Unit21>
         <Filename Value="C:\fpcupdeluxe2\fpcsrc\rtl\inc\objpash.inc"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="12"/>
         <TopLine Value="187"/>
         <CursorPos X="23" Y="206"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="13"/>
         <Loaded Value="True"/>
       </Unit21>
+      <Unit22>
+        <Filename Value="C:\fpcupdeluxe2\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="304"/>
+        <CursorPos X="15" Y="311"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\fpcupdeluxe2\fpcsrc\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="132"/>
+        <CursorPos X="10" Y="151"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit23>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="30" HistoryIndex="28">
       <Position1>
         <Filename Value="main.pas"/>
-        <Caret Line="872" Column="65" TopLine="851"/>
+        <Caret Line="1254" Column="3" TopLine="1110"/>
       </Position1>
       <Position2>
         <Filename Value="main.pas"/>
-        <Caret Line="1254" Column="3" TopLine="1252"/>
+        <Caret Line="390" Column="15" TopLine="373"/>
       </Position2>
       <Position3>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="145" Column="15" TopLine="127"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1509" Column="3" TopLine="1493"/>
       </Position3>
       <Position4>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="711" Column="9" TopLine="705"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="21" Column="3" TopLine="11"/>
       </Position4>
       <Position5>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="718" Column="14" TopLine="705"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="29" Column="16" TopLine="12"/>
       </Position5>
       <Position6>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="1276" Column="49" TopLine="1245"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="45" Column="21" TopLine="12"/>
       </Position6>
       <Position7>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="171" Column="16" TopLine="153"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1525" Column="23" TopLine="1493"/>
       </Position7>
       <Position8>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="346" Column="18" TopLine="315"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1514" Column="49" TopLine="1507"/>
       </Position8>
       <Position9>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="371" Column="18" TopLine="341"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="90" Column="23" TopLine="60"/>
       </Position9>
       <Position10>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="381" Column="18" TopLine="351"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="359" Column="52" TopLine="337"/>
       </Position10>
       <Position11>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="452" Column="14" TopLine="421"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="89" Column="15" TopLine="71"/>
       </Position11>
       <Position12>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="711" Column="14" TopLine="680"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="486" Column="62" TopLine="462"/>
       </Position12>
       <Position13>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="718" Column="14" TopLine="687"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="77" Column="5" TopLine="58"/>
       </Position13>
       <Position14>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="1276" Column="49" TopLine="1245"/>
+        <Filename Value="gridsheet.pas"/>
+        <Caret Line="45" Column="21" TopLine="14"/>
       </Position14>
       <Position15>
-        <Filename Value="Editor.pas"/>
-        <Caret Line="171" Column="16" TopLine="153"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1654" Column="12" TopLine="1622"/>
       </Position15>
       <Position16>
         <Filename Value="main.pas"/>
-        <Caret Line="1254" Column="3" TopLine="1110"/>
+        <Caret Line="1064" TopLine="1064"/>
       </Position16>
       <Position17>
         <Filename Value="main.pas"/>
-        <Caret Line="390" Column="15" TopLine="373"/>
+        <Caret Line="1149" Column="57" TopLine="1131"/>
       </Position17>
       <Position18>
         <Filename Value="main.pas"/>
-        <Caret Line="1509" Column="3" TopLine="1493"/>
+        <Caret Line="995" Column="33" TopLine="991"/>
       </Position18>
       <Position19>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="21" Column="3" TopLine="11"/>
+        <Filename Value="main.pas"/>
       </Position19>
       <Position20>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="29" Column="16" TopLine="12"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="299" Column="30" TopLine="269"/>
       </Position20>
       <Position21>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="45" Column="21" TopLine="12"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="788" Column="13" TopLine="760"/>
       </Position21>
       <Position22>
         <Filename Value="main.pas"/>
-        <Caret Line="1525" Column="23" TopLine="1493"/>
+        <Caret Line="786" Column="11" TopLine="761"/>
       </Position22>
       <Position23>
         <Filename Value="main.pas"/>
-        <Caret Line="1514" Column="49" TopLine="1507"/>
+        <Caret Line="788" Column="11" TopLine="763"/>
       </Position23>
       <Position24>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="90" Column="23" TopLine="60"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1160" Column="49" TopLine="1129"/>
       </Position24>
       <Position25>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="359" Column="52" TopLine="337"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1607" Column="43" TopLine="1576"/>
       </Position25>
       <Position26>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="89" Column="15" TopLine="71"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1253" Column="3" TopLine="1251"/>
       </Position26>
       <Position27>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="486" Column="62" TopLine="462"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="336" Column="14" TopLine="318"/>
       </Position27>
       <Position28>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="77" Column="5" TopLine="58"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1844" Column="155" TopLine="1827"/>
       </Position28>
       <Position29>
-        <Filename Value="gridsheet.pas"/>
-        <Caret Line="45" Column="21" TopLine="14"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="1831" Column="5" TopLine="1827"/>
       </Position29>
       <Position30>
-        <Filename Value="main.pas"/>
-        <Caret Line="1654" Column="12" TopLine="1622"/>
+        <Filename Value="C:\fpcupdeluxe2\fpcsrc\rtl\objpas\sysutils\sysstrh.inc"/>
+        <Caret Line="151" Column="10" TopLine="132"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>

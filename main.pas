@@ -121,6 +121,7 @@ type
     ComboBoxJoystick: TComboBox;
     ComboReadMode: TComboBox;
     Edit1: TMenuItem;
+    EditAutoPingMessage: TEdit;
     EditMaxPoints: TEdit;
     EditNumSeries: TEdit;
     EditEndOfPacketCommand: TEdit;
@@ -188,6 +189,7 @@ type
     Label2: TLabel;
     Label20: TLabel;
     Label21: TLabel;
+    Label22: TLabel;
     Label24: TLabel;
     Label25: TLabel;
     Label26: TLabel;
@@ -1149,7 +1151,7 @@ begin
 
       if CBAutoPing.Checked and (UDPPingDecimator mod 20 = 0) then begin
         UDPPort := UDP.Port + ComboBoxJoystick.ItemIndex;
-        UDP.SendMessage('Init', EditRemoteIP.Text);
+        UDP.SendMessage(EditAutoPingMessage.Text, EditRemoteIP.Text);
       end;
       inc(UDPPingDecimator);
     end;
@@ -1596,7 +1598,7 @@ begin
         WSAIoctl(clientSock, SIO_UDP_CONNRESET, &bNewBehavior, sizeof bNewBehavior, NULL, 0, &dwBytesReturned, NULL, NULL);
   }
   //WSAIoctl(UDP.Socks[0], SIO_UDP_CONNRESET, &bNewBehavior, sizeof bNewBehavior, NULL, 0, &dwBytesReturned, NULL, NULL);
-  UDP.SendMessage('Init', EditRemoteIP.Text);
+  UDP.SendMessage(EditAutoPingMessage.Text, EditRemoteIP.Text);
 end;
 
 procedure TFMain.BUDPDisconnectClick(Sender: TObject);

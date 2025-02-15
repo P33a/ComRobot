@@ -14,7 +14,7 @@ object FMain: TFMain
   OnShow = FormShow
   ParentBiDiMode = False
   ParentDoubleBuffered = False
-  SessionProperties = 'CBAutoPing.Checked;CBChartFreeze.Checked;CBComPort.ItemIndex;CBComPort.Items;CBComPort.Text;CBDecimalSeparator.ItemIndex;CBIRSeries.Checked;CBLocalFilter.Checked;CBOmniJoy.Checked;CBRawRecv.Checked;CBRawSend.Checked;CBRemoteActions.Checked;CBSaveSheetOnExit.Checked;CBSendPars.Checked;CBSerialChannels.Checked;CBSerialReconnect.Checked;ComboBoxJoystick.ItemIndex;EditAxisChannelV.Text;EditAxisChannelVn.Text;EditAxisChannelW.Text;EditAxisFactorV.Text;EditAxisFactorVn.Text;EditAxisFactorW.Text;EditAxisIndexV.Text;EditAxisIndexVn.Text;EditAxisIndexW.Text;EditAxisOffsetV.Text;EditAxisOffsetVn.Text;EditAxisOffsetW.Text;EditButtonSolenoidOff.Text;EditButtonSolenoidOn.Text;EditButtonSolenoidToggle.Text;EditEndOfPacketChannel.Text;EditEndOfPacketCommand.Text;EditLogName.Text;EditMaxPoints.Text;EditReconnectDelay.Text;EditRemoteIP.Text;EditRobotVLabel.Text;EditRobotVnLabel.Text;EditRobotWLabel.Text;EditSheetFilename.Text;EditSolenoidChannel.Text;EditSolenoidLabel.Text;EditSolenoidMax.Text;EditStateReq.Text;EditStateReqAlt.Text;EditVmax.Text;EditVnmax.Text;EditWmax.Text;EditZpole.Text;Left;PairSplitter.Position;ShapeScriptState.Shape;SplitterTerminals.Left;TabConfig.PageIndex;Top;CBDTR.Checked;CBRTS.Checked'
+  SessionProperties = 'CBAutoPing.Checked;CBChartFreeze.Checked;CBComPort.ItemIndex;CBComPort.Items;CBComPort.Text;CBDecimalSeparator.ItemIndex;CBDTR.Checked;CBIRSeries.Checked;CBLocalFilter.Checked;CBOmniJoy.Checked;CBRawRecv.Checked;CBRawSend.Checked;CBRemoteActions.Checked;CBRTS.Checked;CBSaveSheetOnExit.Checked;CBSendPars.Checked;CBSerialChannels.Checked;CBSerialReconnect.Checked;ComboBoxJoystick.ItemIndex;EditAxisChannelV.Text;EditAxisChannelVn.Text;EditAxisChannelW.Text;EditAxisFactorV.Text;EditAxisFactorVn.Text;EditAxisFactorW.Text;EditAxisIndexV.Text;EditAxisIndexVn.Text;EditAxisIndexW.Text;EditAxisOffsetV.Text;EditAxisOffsetVn.Text;EditAxisOffsetW.Text;EditButtonSolenoidOff.Text;EditButtonSolenoidOn.Text;EditButtonSolenoidToggle.Text;EditEndOfPacketChannel.Text;EditEndOfPacketCommand.Text;EditLogName.Text;EditMaxPoints.Text;EditReconnectDelay.Text;EditRemoteIP.Text;EditRobotVLabel.Text;EditRobotVnLabel.Text;EditRobotWLabel.Text;EditSheetFilename.Text;EditSolenoidChannel.Text;EditSolenoidLabel.Text;EditSolenoidMax.Text;EditStateReq.Text;EditStateReqAlt.Text;EditVmax.Text;EditVnmax.Text;EditWmax.Text;EditZpole.Text;Left;PairSplitter.Position;ShapeScriptState.Shape;SplitterTerminals.Left;TabConfig.PageIndex;Top;EditAutoPingMessage.Text'
   LCLVersion = '3.2.0.0'
   object PairSplitter: TPairSplitter
     Left = 4
@@ -561,6 +561,28 @@ object FMain: TFMain
             TabOrder = 4
             Text = 'loop'
           end
+          object Label22: TLabel
+            Left = 8
+            Height = 13
+            Top = 152
+            Width = 102
+            Caption = 'Auto Ping Message:'
+            Font.Height = -11
+            ParentColor = False
+            ParentFont = False
+          end
+          object EditAutoPingMessage: TEdit
+            Left = 148
+            Height = 21
+            Top = 148
+            Width = 80
+            AutoSize = False
+            AutoSelect = False
+            Font.Height = -11
+            ParentFont = False
+            TabOrder = 5
+            Text = 'init 0;'
+          end
         end
         object TabChannels: TTabSheet
           Caption = 'Channels'
@@ -588,8 +610,8 @@ object FMain: TFMain
             OnClick = SGRobotClick
             OnMouseDown = SGRobotMouseDown
             ColWidths = (
-              76
-              75
+              84
+              84
             )
             Cells = (
               1
